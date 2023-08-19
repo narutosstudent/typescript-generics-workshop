@@ -5,7 +5,7 @@ export type IsTrue<T extends true> = T;
 export type IsFalse<T extends false> = T;
 
 export type Equal<X, Y> = (<T>() => T extends X ? 1 : 2) extends <
-  T,
+  T
 >() => T extends Y ? 1 : 2
   ? true
   : false;
@@ -27,7 +27,7 @@ export type ExpectExtends<VALUE, EXPECTED> = EXPECTED extends VALUE
   : false;
 export type ExpectValidArgs<
   FUNC extends (...args: any[]) => any,
-  ARGS extends any[],
+  ARGS extends any[]
 > = ARGS extends Parameters<FUNC> ? true : false;
 
 export type UnionToIntersection<U> = (
