@@ -14,6 +14,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "/Users/tigerabrodi/Desktop/typescript-generics-workshop/src/01-generics-intro/02-generic-constraints.problem.ts"
+    "/Users/tigerabrodi/Desktop/typescript-generics-workshop/src/01-generics-intro/03-multiple-generics.problem.ts"
   ]
 }
