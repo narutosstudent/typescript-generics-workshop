@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": [
+      "vitest/importMeta"
+    ],
+    "target": "es2020",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "/Users/tigerabrodi/Desktop/typescript-generics-workshop/src/03-art-of-type-arguments/12-generics-at-different-levels.problem.ts"
+  ]
+}
