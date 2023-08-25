@@ -14,6 +14,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "/Users/tigerabrodi/Desktop/typescript-generics-workshop/src/03-art-of-type-arguments/14-safe-function.problem.ts"
+    "/Users/tigerabrodi/Desktop/typescript-generics-workshop/src/04-generics-advanced/17-you-say-goodbye-i-say-hello.problem.ts"
   ]
 }
