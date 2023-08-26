@@ -5,9 +5,9 @@ const returnBothOfWhatIPassIn = <
   TParams extends {
     a: unknown;
     b: unknown;
-  },
+  }
 >(
-  params: TParams,
+  params: TParams
 ): [TParams["a"], TParams["b"]] => {
   return [params.a, params.b];
 };
